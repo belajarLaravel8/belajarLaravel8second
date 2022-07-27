@@ -24,6 +24,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+<<<<<<< HEAD
 
 
 
@@ -49,3 +50,5 @@ Route::get('/participant/tambah-participant/{id}',[ParticipantController::class,
 Route::post('/participant/store-participant',[ParticipantController::class, 'store'])->name('participant.store');
 
 
+=======
+>>>>>>> 3dcfc9aeb3bcaf7134ff097146754e10a6563f44
