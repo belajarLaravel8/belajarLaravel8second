@@ -10,6 +10,7 @@ class EventModel extends Model
     use HasFactory;
 
     protected $table = 'events';
+<<<<<<< HEAD
 
     // protected $fillable = [
     //     'tittle',
@@ -19,4 +20,6 @@ class EventModel extends Model
     //     'created_at',
     //     'updated_at',
     // ];
+=======
+>>>>>>> ecb0711b0d991e0567f72bdf1cee0b1593c36e61
 }
